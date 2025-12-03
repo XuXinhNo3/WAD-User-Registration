@@ -9,7 +9,7 @@ async function bootstrap() {
   app.enableCors({
     origin: process.env.CORS_ORIGIN 
       ? process.env.CORS_ORIGIN.split(',') 
-      : ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175'],
+      : ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175', 'https://associated-albertine-student-of-university-of-science-1ce08dac.koyeb.app'],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     credentials: true,
   });

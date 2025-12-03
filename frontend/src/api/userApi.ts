@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3000';
+const API_BASE_URL = 'https://associated-albertine-student-of-university-of-science-1ce08dac.koyeb.app/';
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
