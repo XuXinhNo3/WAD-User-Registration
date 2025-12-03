@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://associated-albertine-student-of-university-of-science-1ce08dac.koyeb.app/';
+const API_BASE_URL = 'https://unconscious-norine-student-of-university-of-science-4e1804bb.koyeb.app';
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
