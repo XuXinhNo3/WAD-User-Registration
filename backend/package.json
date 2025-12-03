@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "User Registration API with NestJS",
   "main": "dist/main.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/main.js",
     "start:dev": "ts-node src/main.ts",
-    "start:watch": "nodemon --exec ts-node src/main.ts"
+    "start:watch": "nodemon --exec ts-node src/main.ts",
+    "start:prod": "node dist/main.js"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
